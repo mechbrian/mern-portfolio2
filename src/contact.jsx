@@ -8,7 +8,7 @@
 // import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Contact.css";
+import "./contact.css";
 
 export default function Contact() {
 

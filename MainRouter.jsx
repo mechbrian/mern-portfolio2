@@ -13,6 +13,7 @@ import About from "./src/about";
 import Education from "./src/education";
 import Project from "./src/project";
 import Service from "./src/service";
+import Contact from './src/contact';
 
 // Routes is used as a container for defining multiple Route components
 // The Route component is used to define a route and its corresponding component
@@ -26,6 +27,7 @@ const MainRouter = () => {
         <Route path="/education" element={<Education />} />
         <Route path="/project" element={<Project />} />
         <Route path="/service" element={<Service />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );

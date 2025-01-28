@@ -1,0 +1,80 @@
+/*
+  File Name: contact.css
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+/* main body */
+.contact-container {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* my contact info */
+.contact-info {
+  padding: 20px;
+}
+
+/* title of my contact info */
+.contact-info h2 {
+  font-size: 1.8rem;
+  color: #2a9d8f;
+  margin-bottom: 15px;
+}
+
+/* content of my contact info */
+.contact-info p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* contact form */
+.contact-form {
+  padding: 20px;
+}
+
+/* title of the contact form */
+.contact-form h2 {
+  font-size: 1.8rem;
+  color: #2a9d8f;
+  margin-bottom: 20px;
+}
+
+/* items in the form */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* label of the items in the form item */
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+/* input and textarea in the form item */
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* submit button */
+.submit-button {
+  padding: 10px 20px;
+  background-color: #2a9d8f;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* hover effect on the submit button */
+.submit-button:hover {
+  background-color: #21867a;
+}

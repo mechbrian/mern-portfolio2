@@ -1,0 +1,48 @@
+/*
+  File Name: service.css
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+/* main body */
+.services-container {
+  display: flex;
+  margin-top: 100px;
+  margin-left: 40px;
+  gap: 20px;
+  padding: 20px;
+  color: #333;
+}
+
+/* service group in the left column */
+.service-group {
+  margin-bottom: 20px;
+}
+
+/* title of the service group */
+.group-title {
+  font-size: 1.5rem;
+  color: #264653;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+/* items in the service group */
+.group-items {
+  margin-left: 20px;
+}
+
+/* image group in the right column */
+.services-images {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* images in image group */
+.services-images img {
+  height: 300px;
+  object-fit: cover;
+}

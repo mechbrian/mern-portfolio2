@@ -1,0 +1,55 @@
+/*
+  File Name: Layout.css
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main body of layout */
+.layout-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* logo */
+.logo img {
+  height: 50px;
+  cursor: pointer;
+  margin-left: 1px;
+  margin-right: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* navigation bar */
+.navigation {
+  display: flex;
+  position: fixed;
+  right: 4%;
+}
+
+/* buttons in navigation bar */
+.nav-button {
+  width: 100px;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+}
+
+/* hover effect on buttons */
+.nav-button:hover {
+  background-color: #0056b3;
+}

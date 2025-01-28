@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+/*
+  File Name: Home.css
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+// import { useState } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
+// import './App.css'
+// import React from 'react';
+import {BrowserRouter as Router} from 'react-router-dom';
+// import {ThemeProvider} from '@material-ui/styles';
+import MainRouter from '../MainRouter';
+// import Contact from './contact';
+// import theme from '../theme';
+// import {hot} from 'react-hot-loader';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
-
+  <Router>
+    <MainRouter />
+  </Router>
+  );
+};
 export default App

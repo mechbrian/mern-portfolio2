@@ -1,0 +1,71 @@
+/*
+  File Name: Home.css
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+/* Global Styles */
+* {
+  background-color: #bebebe;
+}
+
+/* main body of the home page */
+.home-container {
+  margin-top: 100px;
+  display: flex;
+  padding: 20px;
+}
+
+/* welcome message setion and mission statement setion */
+.home-content {
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* welcome message title */
+.home-content h1 {
+  font-size: 2.4rem;
+  color: #2a9d8f;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* welcome message */
+.home-content p:first-of-type {
+  font-size: 1.2rem;
+  color: #264653;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+/* mission statement */
+.home-content p:last-of-type {
+  font-size: 1.6rem;
+  color: #e26928;
+  text-align: left;
+}
+
+/* button setion */
+.home-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+/* buton style */
+.home-buttons button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 2rem;
+  width: 200px;
+  height: 200px;
+}
+
+/* hover effect on buttons */
+.home-button:hover {
+  background-color: #0056b3;
+}

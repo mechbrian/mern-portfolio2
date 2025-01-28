@@ -1,0 +1,50 @@
+/*
+  File Name: education.css
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+/* main body */
+.education-container {
+    margin-top: 90px;
+    padding: 40px;        
+    color: #333;
+}
+
+/* title of the education item */
+.education-item {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;  
+}
+
+/* degree of the education item */
+.education-degree {
+    font-size: 2rem;
+    color: #e26928;
+    text-align: left;    
+    margin-bottom: 5px;
+}
+
+/* timeline of the education item */
+.education-timeline {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+/* school of the education item */
+.education-school {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 5px 0px 10px;
+}
+
+/* highlights of the education item */
+.education-highlights {
+    font-size: 1.25rem;
+    color: #264653;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}

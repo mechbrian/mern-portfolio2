@@ -6,7 +6,7 @@
 */
 
 // import React from "react";
-import "./Project.css";
+import "./project.css";
 import img01 from "./assets/proj01.png";
 import img02 from "./assets/proj02.png";
 import img03 from "./assets/proj03.png";

@@ -16,7 +16,7 @@ export default function Layout() {
       {/* Logo Section */}
       <div className="logo">
         <Link to="/">
-          <img src="../src/assets/logo.png" alt="logo" />
+          <img src="./Layout.css" alt="logo" />
         </Link>
       </div>
 

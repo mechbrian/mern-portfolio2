@@ -1,0 +1,53 @@
+/*
+  File Name: project.css
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+/* main body */
+.projects-container {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;  
+  color: #333;
+}
+
+/* project item */
+.project-item {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;  
+}
+
+/* title of the project item */
+.project-title {
+  font-size: 2rem;
+  color: #e26928;
+  text-align: left;  
+  margin-bottom: 20px;
+}
+
+/* description of the project item */
+.project-text {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* image of the project item */
+.project-image img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;  
+}
+
+/* Default layout for even project items */
+.project-item:nth-child(even) {
+  flex-direction: row;
+}
+
+/* Reverse the layout for odd project items */
+.project-item:nth-child(odd) {
+  flex-direction: row-reverse;
+}

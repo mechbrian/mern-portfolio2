@@ -5,6 +5,7 @@
   Date: January 26, 2025  
 */
 
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
   const buttonLinks = [
     { path: "/about", label: "About Me" },
     { path: "/education", label: "Education" },
-    { path: "/projects", label: "Projects" },    
+    { path: "/project", label: "Projects" },    
     { path: "/service", label: "Services" },
     { path: "/contact", label: "Contact Me" },
   ];
@@ -39,9 +40,9 @@ export default function Home() {
       {/* button section*/}
       <div className="home-buttons">
         {buttonLinks.map((button, index) => (
-          <a key={index} href={button.path}>
+          <Link key={index} to={button.path}>
             <button>{button.label}</button>
-          </a>
+          </Link>
         ))}
       </div>      
 

@@ -1,0 +1,40 @@
+/*
+  File Name: about.css
+  Student Name: Po-Kai Chao
+  Student ID: 301426941
+  Date: January 26, 2025  
+*/
+
+/* main body */
+.about-container {
+  display: flex;
+  align-items: center;
+}
+
+/* my photo in about me */
+.about-photo img {
+  width: 400px;
+  border-radius: 40%;
+  margin: 30px;
+}
+
+/* text in about me */
+.about-details {     
+  margin: 30px;
+}
+
+/* title of the description of about me */
+.about-title {
+  font-size: 2rem;
+  color: #e26928;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+/* description of about me */
+.about-content {
+  font-size: 1.25rem;
+  color: #264653;
+  text-align: left;
+  margin-bottom: 40px;
+}

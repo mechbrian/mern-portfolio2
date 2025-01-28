@@ -8,15 +8,15 @@
 // import React from "react";
 import { Link } from "react-router-dom";
 import "./Layout.css";
+import logoPath from "../src/assets/logo.png";
 
 export default function Layout() {
   return (
     <header className="layout-header">
-
       {/* Logo Section */}
       <div className="logo">
         <Link to="/">
-          <img src="./Layout.css" alt="logo" />
+          <img src={logoPath} alt="logo" />
         </Link>
       </div>
 
@@ -50,7 +50,6 @@ export default function Layout() {
       {/* divider line */}
       <br />
       <hr />
-      
     </header>
   );
 }

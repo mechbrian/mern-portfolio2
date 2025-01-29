@@ -19,7 +19,7 @@ export default function Home() {
     },
     missionStatement: {
       description:
-        "My mission is to create innovative and user-friendly solutions through my passion for [software development/design/etc.]. I aim to continuously learn and grow while contributing to meaningful projects.",
+        "My mission is to create innovative and user-friendly solutions through my passion for software development. I aim to continuously learn and grow while contributing to meaningful projects.",
     },
   };
 

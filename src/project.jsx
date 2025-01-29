@@ -16,22 +16,22 @@ export default function Project() {
   // project data oject
   const projects = [
     {
-      title: "Project Management System",
+      title: "Slot Game Algorithm",
       img: img01,
       description:
-        "Developed a project management system using Angular and .NET Core. My role involved implementing RESTful APIs, creating dynamic front-end components, and ensuring robust user authentication. The system improved project tracking efficiency by 35%.",
+        "Developed and implemented mathematical models for slot games to precisely calculate expected values, ensuring optimal game balance and an engaging player experience.",
     },
     {
-      title: "E-Commerce Platform",
+      title: "3-Axis Wood Panel Machine",
       img: img02,
       description:
-        "Designed and developed a scalable e-commerce platform using React and Node.js. Contributed to front-end development, integrated payment gateways, and optimized product search functionality. The platform led to a 50% increase in sales for the client.",
+        "Designed and developed a precision 3-axis wood panel cutting machine for customized cabinet manufacturing. Ensured high accuracy and efficiency in cutting operations, optimizing workflow for bespoke cabinetry production.",
     },
     {
-      title: "Educational Mobile App",
+      title: "Angular Website",
       img: img03,
       description:
-        "Built an educational mobile app using Flutter, enabling students to access interactive learning materials and quizzes. My role included designing the UI, implementing app features, and managing data synchronization. The app achieved over 10,000 downloads within the first 6 months.",
+        "Developed a dynamic and responsive cosmetic product introduction website using Angular. Implemented interactive UI components, optimized performance, and ensured a seamless user experience for product exploration.",
     },
   ];
 

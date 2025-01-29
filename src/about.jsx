@@ -15,11 +15,11 @@ export default function About() {
   // introduction data object
   const introduction = {
     name: "po-kai chao",
-    title: "Software Developer",
+    title: "I am Brian, a Software Developer",
     img: mePhoto,
     resume: resumePath,
     content:
-      "I am a passionate software developer with expertise in building user-centric applications. With a strong focus on clean code and innovative solutions, I aim to create meaningful digital experiences. I love solving complex problems and contributing to impactful projects.",
+      "I am a passionate software developer with a background in mechanical engineering. Holding a Master’s degree in Mechanical Engineering, I have gained valuable experience working in the manufacturing industry.",
   };
 
   return (

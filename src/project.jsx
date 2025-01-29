@@ -22,7 +22,7 @@ export default function Project() {
         "Developed and implemented mathematical models for slot games to precisely calculate expected values, ensuring optimal game balance and an engaging player experience.",
     },
     {
-      title: "Three-Axis Wood Panel Machine",
+      title: "3-Axis Wood Panel Machine",
       img: img02,
       description:
         "Designed and developed a precision 3-axis wood panel cutting machine for customized cabinet manufacturing. Ensured high accuracy and efficiency in cutting operations, optimizing workflow for bespoke cabinetry production.",
